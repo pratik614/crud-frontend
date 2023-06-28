@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 6vh;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    
+>h2{
+    color: antiquewhite;
+    margin-left: 4rem;
+}
+>a{
+    margin-right: 2rem;
+    color: antiquewhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover{
+        color: aqua;
+    }
+}
+}

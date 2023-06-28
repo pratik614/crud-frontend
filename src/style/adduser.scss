@@ -1,0 +1,64 @@
+form{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    margin-top: 6rem;
+    background-color: antiquewhite;
+    width: 50%;
+    margin-left: 20rem;
+    height: 60vh;
+    border-radius: 50px 50px 50px 50px;
+    border: 3px solid black;
+    >h2{
+        text-transform: uppercase;
+        color: black;
+    }
+    >div{
+        display: flex;
+        flex-direction: column;
+        padding: 1.2rem 0;
+        >label{
+            text-transform: uppercase;
+            margin-left: 2.3rem;
+            font-weight: bold;
+            margin-bottom: 2px;
+        }
+        >input{
+            width: 20rem;
+            height: 2rem;
+            border-radius: 5px 5px 5px 5px;
+           font-weight: 400;
+           color: black;
+            background-color: antiquewhite;
+        
+        }
+    }
+    >button{
+        height: 2rem;
+        width: 20%;
+        cursor: pointer;
+        
+       background-color: black;
+       color: antiquewhite;
+       border-radius: 4px 4px 4px 4px;
+       &:hover{
+        color: aqua;
+       }
+    }
+    
+
+
+    /* Existing styles */
+
+    @media screen and (max-width: 768px) {
+        /* Styles for screens up to 768px wide */
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    @media screen and (max-width: 480px) {
+        /* Styles for screens up to 480px wide */
+        width: 90%;
+        margin-left: 5%;
+    }
+}
